@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Dynamic Web Week 1</title>
+
+    <!-- CSS can be read in via file reference or within the style tags -->
+    <style>
+      body{ 
+        font-family: 'Roboto', sans-serif;
+        padding:0px; margin:0px;
+        /* background-color: lavender; */
+        /* background: rgb(174,238,207); */
+        /* background: radial-gradient(circle, rgba(174,238,207,1) 0%, rgba(167,198,218,1) 69%, rgba(157,148,233,1) 100%); */
+
+        background: rgb(254,224,230);
+        background: radial-gradient(circle, rgba(254,224,230,1) 0%, rgba(174,183,204,1) 35%, rgba(255,209,218,1) 100%);
+
+        color:#FFFAF0;
+        border-top: solid 25px #FFFAF0;
+        /* border-bottom: solid 80px #FFFAF0; */
+        box-sizing: border-box; 
+      }
+
+      .titleText{
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 90px;
+      }
+
+      .titleText2{
+        text-align: center; 
+        letter-spacing: 2px;
+        font-size: 40px;
+        margin-top: -50px;
+      }
+      
+      .textPosition{
+        margin-left: 400px;
+      }
+
+      .textPosition2{
+        display: absolute; 
+        margin-left: 750px;
+        margin-top: -540px;
+      }
+
+      .textHighLight{
+        color: setInterval;
+        /* color:lavender */
+      }
+
+      .searchPosition{
+        position: absolute;
+        top:35px;
+        right: 10px;
+      }
+
+      .paragraphText{
+        letter-spacing: 2px;
+        font-size: 30px;
+      }
+
+      .linkButton{
+        /* background-color: #dfcae4; */
+        background: rgb(159,204,255);
+        background: linear-gradient(319deg, rgba(159,204,255,1) 0%, rgba(255,219,194,1) 95%);
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        outline-color: black;
+        outline: 1px;
+        /* cursor: pointer; */
+        border: none;
+      }
+
+    </style>
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div id="app">
+        <!-- header -->
+        <header>
+          <h1 class="titleText" >Dynamic Web Development</h1>
+          <h2 class="titleText2">A webpage for my ITP Web Development Jouney</h2>
+        </header>
+        <!-- main body content -->
+        <main>
+            <!-- section -->
+            <section class="textPosition">
+              <h2>The People of ITP</h2>
+              <ul>
+                <li> <a class="linkButton" href="https://tisch.nyu.edu/itp/itp-people/faculty" target="_blank">Faculty</a></li>
+                <br>
+                <br>
+                <li> <a class="linkButton" href="https://tisch.nyu.edu/itp/itp-people/staff" target="_blank">Staff</a></li>
+                <br>
+                <br>
+                <li> <a class="linkButton" href="https://tisch.nyu.edu/itp/itp-people/alumni" target="_blank">Alums</a></li>
+                <br>
+                <br>
+                <li> <a class="linkButton" href="https://tisch.nyu.edu/itp/itp-people/current-students" target="_blank">Current Students</a></li>
+                <br>
+                <br>
+                <li> <a class="linkButton" href="https://tisch.nyu.edu/itp/itp-people/faculty/somethings-in-residence-sirs" target="_blank">Fellows</a></li>
+                <br>
+              </ul>
+            </section>
+
+            <section>
+                <form class="searchPosition">
+                <input type="text" name="form-secret" placeholder="write a secret">
+                <input type="button" value="send my secret">
+                </form>
+            </section>
+            <!-- section -->
+           <hr width="60%" color="AliceBlue" />
+            <section class="textPosition">
+              <h2>My favorite courses at ITP</h2>
+              <!-- article 1 -->
+              <article>
+                <header>
+                  <h3>ICM</h3>
+                </header>
+                <p>I love ICM because the instructors are SO smart and cool and they care about my learning SO much. It's crazy.</p>
+              </article>
+              <!-- article 2 -->
+              <article>
+                <header>
+                  <h3>Dynamic Web</h3>
+                </header>
+                <p>I love Dynamic Web Development because the instructors are SO smart and cool and they care about my learning SO much. It's crazy.</p>
+              </article>
+            </section>
+             <!-- Navigation -->
+        <nav>
+            <Section class="textPosition2">
+                <h2>Quick Links</h2>
+                <ul>
+                  <li> <a class="linkButton" href="https://itp.nyu.edu/registration/Schedule.php?year=2019&semester=Fall" target="_blank">ITP Schedule</a></li>
+                  <br>
+                  <br>
+                  <li><a class="linkButton" href="https://tisch.nyu.edu/itp" target="_blank">ITP Home</a></li>
+                </ul>
+              </nav>       
+            </Section>
+            
+        </main>  
+    </div>
+    <!-- JavaScript can be read in via file reference or within the script tags -->
+    <script>
+        setInterval( function(){
+            const r = Math.random()*255;
+            const g = Math.random()*255;
+            const b = Math.random()*255;
+            document.style.textHighLight= `rgb( ${r}, ${g}, ${b})`
+        }, 1000)
+    </script>
+  </body>
+</html>
