@@ -1,0 +1,178 @@
+*{
+      /* border:solid 1px; */
+      font-size: 30px;
+      font-family:'Roboto', sans-serif;
+      
+    }
+    
+    body{
+        background-color: #353535;
+        border-top: solid 50px #14141c;
+        border-bottom: solid 50px #14141c;
+        box-sizing: border-box;
+      }
+      
+      .daybox{
+        position: absolute;
+        top:50%;
+        left:50%;
+        letter-spacing: 1.5px;
+        transform: translate(-50%,-50%);
+
+      }
+
+      .namecard{
+        position: absolute fixed;
+        width: 800px; height: 600px;
+        /* padding: 40px;  */
+        display:  fixed;
+        margin-top:0px;
+        font-size: 90px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        letter-spacing: 1.5px;
+        transform: translate(-50%,-50%);;
+
+        margin-left: auto;
+        margin-right: auto;
+       
+        border-radius: 9px;
+        font-weight:100;
+        
+        /* background-color: #d9d9d9; */
+        animation: changeBackgroundColor 15s infinite;
+        box-shadow: 5px 10px 15px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+        position: absolute;
+        }
+
+        @keyframes changeBackgroundColor {
+            50% {
+              background-color: #001F3F;
+            }
+            100% {
+              background-color: #d9d9d9;
+            }
+            100% {
+              /* background-color: #001F3F; */
+            }
+          }
+     
+      
+
+      #cityName{
+        /* width: 580px; height: 100px; */
+        position: absolute fixed;
+        display:left;
+        font-size: 100px;
+        padding-bottom: 100px;
+        text-decoration: 6px underline overline white;
+        margin-left: auto;
+        margin-right: auto;
+
+        text-shadow: #14141c;
+        color:#469094;
+        
+        background-image: linear-gradient(
+             -225deg,
+             #284b63 0%,
+             #3c6e71 29%,
+             #4f4f4f 67%,
+             #14141c 100%
+           );
+
+
+           background-size: 200% auto;
+           color: #fff;
+           background-clip: text;
+           /* text-fill-color: transparent; */
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           animation: textclip 3s  infinite;
+           
+           filter: blur(0.5px);
+           /* text-shadow: 1px 1px, -1px -1px */
+           display: inline-block;
+              
+         }
+
+         @keyframes textclip {
+            to {
+              background-position: 500% ;
+            }
+        }
+
+
+      #temp{
+        position: absolute fixed;
+        /* margin-left: 150px; */
+        /* margin-top:-90px; */
+        font-size: 80px;
+        font-weight: bold;
+        text-decoration: 6px underline overline white;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto ;
+        margin-top: -30px;
+        color:white;
+        height: 90px;
+        left: 0px;
+        top: 335px;
+
+        background-clip: text;
+        background-size: 200% auto;
+        color: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 3s  infinite;
+        background-image: linear-gradient(
+             -4deg,
+             #284b63 0%,
+             #3c6e71 29%,
+             #4f4f4f 67%,
+             #14141c 100%
+           );
+      }
+
+      #main{
+        color: white;
+        /* margin-top:-90px; */
+        font-size: 80px;
+        font-weight: bold;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto ;
+        margin-top: -30px;
+        display:left;
+        text-decoration: 6px underline overline white;
+        margin-top: -30px;
+
+        height: 90px;
+        left: 250px;
+        top: 335px;
+        background-clip: text;
+        background-size: 200% auto;
+        color: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 3s  infinite;
+        background-image: linear-gradient(
+             -4deg,
+             #284b63 0%,
+             #3c6e71 29%,
+             #4f4f4f 67%,
+             #14141c 100%
+           );
+     }   
+        
+    #input{
+        position: relative fixed;
+        display: center;
+        /* margin-left: 50px; */
+        bottom:50px;
+        margin-top:50px;
+
+    }
+       
+     
