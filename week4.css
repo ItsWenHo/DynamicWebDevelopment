@@ -1,0 +1,100 @@
+
+*{
+    /* border:solid 1px; */
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+
+   
+    
+  }
+  
+  body{
+      /* background-color: #e0e0e0; */
+      background: radial-gradient(#272727, #1b1b1b);
+      /* box-sizing: border-box; */
+      font-weight: bold;
+      
+    }
+    
+    .daybox{
+      position: absolute;
+      top:50%;
+      left:50%;
+      letter-spacing: 1px;
+      transform: translate(-50%,-50%);
+
+    }
+
+    h1{
+    font-size: 70px;
+    margin-top: 15px;
+    text-align: center;
+    color:#feb93a;
+    }
+
+    .namecard{
+      position: absolute fixed;
+      width: 1100px; height: 800px;
+      background-color: #535353;
+      /* padding: 40px;  */
+      display:  fixed;
+      margin-top:0px;
+      font-size: 90px;
+      position: absolute;
+      top:50%;
+      left:50%;
+      letter-spacing: 1.5px;
+      transform: translate(-50%,-50%);
+      border-radius: 10px;
+      
+
+      box-shadow: inset 0 0 30px #feb93a;
+      
+      
+
+      /* margin-left: fixed;
+      margin-right: fixed; */
+    }
+
+    .wineDisplay{
+    font-weight: bold;
+    font-size: 50px;
+    }
+
+    .layout {
+        text-align:center;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        color:beige;
+        margin: 10px;
+      }
+
+    .wrapper{
+        color: rgb(237, 237, 237);
+        text-shadow: 1px 1px 2px black, 0 0 1em #feb93a, 0 0 0.2em #feb93a;
+    }
+  
+    .context{
+        text-align: center;
+        font-size: 80px;
+        color:beige;
+    }
+    
+    /* .label{
+        /* background:linear-gradient(319deg, rgba(159,204,255,1) 0%, rgba(255,219,194,1) 95%); */
+
+    /* } */ 
+
+
+    .dropbtn {
+        background-color: #feb93a;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      

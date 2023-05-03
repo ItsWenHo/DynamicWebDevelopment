@@ -1,0 +1,286 @@
+{
+   "content": [
+      {
+         "WineType": "Red Wine",
+         "Name": "Merlot",
+         "Places": [
+            "Bordeaux, France",
+            "Tuscany, Italy",
+            "California, United States",
+            "Apalta, Chile"
+         ],
+         "Food": [
+            "Red Meat",
+            "Soft/Mild Cheeses",
+            "Grilled Vegetables",
+            "Mushrooms"
+         ]
+      },
+      {
+         "WineType": "Red Wine",
+         "Name": "Shiraz",
+         "Places": [
+            "Côtes du Rhône, France",
+            "California, United States",
+            "Barossa Valley, Australia",
+            "Stellenbosch, South Africa"
+         ],
+         "Food": [
+            "Red Meat",
+            "Spicy Foods",
+            "Hard/Aged Cheeses",
+            "Dark Chocolate"
+         ]
+      },
+      {
+         "WineType": "Red Wine",
+         "Name": "Pinot Noir",
+         "Places": [
+            "California, United States",
+            "Burgundy, France",
+            "Ahr Valley, Germany",
+            "Central Otago, New Zealand"
+         ],
+         "Food": [
+            "Pork",
+            "Soft/Creamy Cheeses",
+            "Salmon/Fatty Fish",
+            "Mushrooms"
+         ]
+      },
+      {
+         "WineType": "Red Wine",
+         "Name": "Malbec",
+         "Places": [
+            "Mendoza, Argentina",
+            "Catamarca, Argentina",
+            "Cahors, France",
+            "Maule, Chile",
+            "Colchagua Valleys, Chile"
+         ],
+         "Food": [
+            "Grilled Meat",
+            "Spicy Foods",
+            "Hard/Aged Cheeses",
+            "Chocolate"
+         ]
+      },
+      {
+         "WineType": "Red Wine",
+         "Name": "Zinfandel",
+         "Places": [
+            "California, United States",
+            "Puglia, Italy",
+            "Dalmatia, Croatia"
+         ],
+         "Food": [
+            "Grilled Meat",
+            "Spicy Foods",
+            "Pizza",
+            "Tomato-Based Dishes",
+            "Cheeseburgers"
+         ]
+      },
+      {
+         "WineType": "White Wine",
+         "Name": "Chardonnay",
+         "Places": [
+            "Southern and Eastern Australia",
+            "Napa Valley, United States",
+            "Burgundy, France",
+            "Puglia, Italy",
+            "Mendoza, Argentina"
+         ],
+         "Food": [
+            "Seafood",
+            "Creamy Sauces",
+            "Roast Chicken",
+            "Mushrooms",
+            "Aged Cheeses"
+         ]
+      },
+      {
+         "WineType": "White Wine",
+         "Name": "Riesling",
+         "Places": [
+            "Alsace, France",
+            "New Zealand",
+            "Ontario, Canada",
+            "Washington, United States"
+         ],
+         "Food": [
+            "Seafood",
+            "Spicy Foods",
+            "Pork Dishes",
+            "Lighter Fare",
+            "Soft/Creamy Cheese"
+         ]
+      },
+      {
+         "WineType": "White Wine",
+         "Name": "Pinot Blanc",
+         "Places": [
+            "Alsace, France",
+            "Alto Adige, Italy",
+            "Barossa Valley, Australia",
+            "Oregon, United States",
+            "Pfalz, Rheinhessen, and Baden, Germany"
+         ],
+         "Food": [
+            "Seafood",
+            "Poultry",
+            "Creamy Sauces",
+            "Lighter Fare",
+            "Soft Cheese"
+         ]
+      },
+      {
+         "WineType": "White Wine",
+         "Name": "Sauvignon Blanc",
+         "Places": [
+            "California, United States",
+            "Burgundy, France",
+            "Ahr Valley, Germany",
+            "Central Otago, New Zealand"
+         ],
+         "Food": [
+            "Seafood",
+            "Spicy Foods",
+            "Salads",
+            "Lighter Fare",
+            "Cheese"
+         ]
+      },
+      {
+         "WineType": "White Wine",
+         "Name": "Pinot Grigio",
+         "Places": [
+            "Friuli-Venezia Giulia, Italy",
+            "Trentino-Alto Adige, Italy",
+            "Veneto, Italy",
+            "Lombardy, Italy",
+            "Piedmont, Italy"
+         ],
+         "Food": [
+            "Seafood",
+            "Salads",
+            "Pasta and Risotto",
+            "Lighter Fare",
+            "Cheese"
+         ]
+      },
+      {
+         "WineType": "White Wine",
+         "Name": "Moscato",
+         "Places": [
+            "Piedmont, Italy",
+            "Asti, Italy",
+            "California, United States",
+            "Victoria, Australia",
+            "South Africa"
+         ],
+         "Food": [
+            "Desserts",
+            "Spicy Foods",
+            "Fruits",
+            "Lighter Fare"
+         ]
+      },
+      {
+         "WineType": "Champagne",
+         "Name": "Brut",
+         "Places": [
+            "Montagne de Reims, France",
+            "Côte des Blancs, France",
+            "Vallée de la Marne, France",
+            "Épernay, France"
+         ],
+         "Food": [
+            "Seafood",
+            "Appetizers",
+            "Lighter Fare",
+            "Fried Foods"
+         ]
+      },
+      {
+         "WineType": "Champagne",
+         "Name": "Blanc de Blancs",
+         "Places": [
+            "Côte des Blancs, France",
+            "Sézanne, France"
+         ],
+         "Food": [
+            "Seafoodt",
+            "Poultry",
+            "Creamy Dishes",
+            "Cheeses"
+         ]
+      },
+      {
+         "WineType": "Champagne",
+         "Name": "Rosé",
+         "Places": [
+            "Reims, France",
+            "Épernay, France",
+            "Vallée de la Marne, France",
+            "Côte des Blancs, France"
+         ],
+         "Food": [
+            "Seafood",
+            "Spicy Foods",
+            "Salad",
+            "Charcuterie"
+         ]
+      },
+      {
+         "WineType": "Champagne",
+         "Name": "Vintage",
+         "Places": [
+            "Reims, France",
+            "Épernay, France",
+            "Aÿ, France",
+            "Ambonnay, France"
+         ],
+         "Food": [
+            "Red Meat",
+            "Strong Cheeses",
+            "Roasted Vegetables",
+            "Game Meats"
+         ]
+      },
+      {
+         "WineType": "Champagne",
+         "Name": "Prestige Cuvée",
+         "Places": [
+            "Côte des Blancs, France",
+            "Montagne de Reims, France",
+            "Épernay, France",
+            "Reims, France"
+         ],
+         "Food": [
+            "Seafood",
+            "Light Appetizerss",
+            "Soft/Creamy Cheese",
+            "Poultry",
+            "Desserts"
+         ]
+      },
+      {
+         "WineType": "Champagne",
+         "Name": "Demi-Sec",
+         "Places": [
+            "Épernay, France",
+            "Côte des Blancs, France",
+            "Montagne de Reims, France",
+            "Vallée de la Marne,France"
+         ],
+         "Food": [
+            "Spicy Foodt",
+            "Fruits",
+            "Salty Snacks",
+            "Asian Cuisine",
+            "Rich Desserts"
+         ]
+      }
+   ]
+}
